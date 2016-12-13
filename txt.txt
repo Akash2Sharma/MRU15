@@ -24,3 +24,29 @@ private static void readNumbers() throws IOException {
 } 
     
  
+
+public static void main(String[] args) throws IOException {
+    writeNumbers();
+    readNumbers();
+}
+
+private static void writeNumbers() throws IOException {
+    DataOutputStream output = new DataOutputStream(new FileOutputStream("C://Numbers.dat"));
+    Scanner scanner = new Scanner(System.in);
+    int n = scanner.nextInt();
+    while (n != -1) {
+        output.writeInt(n);
+        n = scanner.nextInt();
+    }
+    output.close();
+}
+
+private static void readNumbers() throws IOException {
+    DataInputStream input = new DataInputStream(new FileInputStream("C://Numbers.dat"));
+    while (input.available() > 0) {
+        int x = input.readInt();
+        System.out.println(x);
+    }
+    input.close();
+} 
+    
