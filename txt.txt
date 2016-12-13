@@ -21,6 +21,6 @@ private static void readNumbers() throws IOException {
         System.out.println(x);
     }
     input.close();
-}
+} 
     
  
