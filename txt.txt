@@ -50,7 +50,7 @@ private static void readNumbers() throws IOException {
     input.close();
 } 
       
-   //////////////////
+   //// //////////////
    public static void main(String[] args) throws IOException {
     writeNumbers();
     readNumbers();
