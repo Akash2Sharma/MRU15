@@ -10,7 +10,7 @@ private static void writeNumbers() throws IOException {
         output.writeInt(n);
         n = scanner.nextInt();
     }
-    output.close(); 
+    output.close();  
 }
 
 private static void readNumbers() throws IOException {
