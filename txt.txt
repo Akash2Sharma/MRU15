@@ -1,6 +1,6 @@
     public static void main(String[] args) throws IOException {
-    writeNumbers();
-    readNumbers();
+    writeNumbers(); 
+    readNumbers();
 }
 
 private static void writeNumbers() throws IOException {
