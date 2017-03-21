@@ -272,8 +272,8 @@ private static void writeNumbers() throws IOException {
     DataOutputStream output = new DataOutputStream(new FileOutputStream("C://Numbers.dat"));
     Scanner scanner = new Scanner(System.in);
     int n = scanner.nextInt();
-    while (n != -1) {
-        output.writeInt(n);
+    while (n != -1) { 
+        output.writeInt(n);
         n = scanner.nextInt();
     }
     output.close();
