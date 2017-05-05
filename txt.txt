@@ -1,5 +1,5 @@
      public static void main(String[] args) throws IOException {
-    writeNumbers(); 
+    writeNumbers();  
     readNumbers();   
 } 
 private static void writeNumbers() throws IOException {
