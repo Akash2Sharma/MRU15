@@ -12,7 +12,7 @@ private static void writeNumbers() throws IOException {
     }
     output.close();   
 }
-
+ 
 private static void readNumbers() throws IOException {
     DataInputStream input = new DataInputStream(new FileInputStream("C://Numbers.dat"));
     while (input.available() > 0) {
