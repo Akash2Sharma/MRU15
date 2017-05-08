@@ -19,7 +19,7 @@ private static void readNumbers() throws IOException {
         int x = input.readInt();
         System.out.println(x);
     }
-    input.close(); 
+    input.close();  
 } 
     
   
