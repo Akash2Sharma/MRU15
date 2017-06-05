@@ -14,8 +14,8 @@ private static void writeNumbers() throws IOException {
 }
  
 private static void readNumbers() throws IOException {
-    DataInputStream input = new DataInputStream(new FileInputStream("C://Numbers.dat"));
-    while (input.available() > 0) {
+    DataInputStream input = new DataInputStream(new FileInputStream("C://Numbers.dat")); 
+    while (input.available() > 0) {
         int x = input.readInt();
         System.out.println(x);
     }
